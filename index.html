@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal Portfolio" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>    
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul id="nav-list">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+    <section role="region" id="welcome-section">
+        <h1 id="title">Hey I'm Nicolás</h1>
+        <p class="subtitle">a mechatronic engineer and web designer</p>
+    </section>
+    <section role="region" id="projects">
+      <h1 class="title">These are some of my projects</h1>
+      <article id="work-article" class="prevent-select">
+        <div class="project-tile">
+          <img class="article-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt=""/>
+          <h2>Coffee Menu</h2>
+        </div>
+        <div class="project-tile">
+          <img class="article-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt=""/>
+          <h2>Tribute Page</h2>
+        </div>
+        <div class="project-tile">
+          <img class="article-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt=""/>
+          <h2>Technical Page</h2>
+        </div>          
+        <div class="project-tile">
+          <img class="article-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt=""/>
+          <h2>Product Landing Page</h2>
+        </div>          
+        <div class="project-tile">
+          <img class="article-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt=""/>
+          <h2>Magazine</h2>
+        </div>          
+        <div class="project-tile">
+          <img class="article-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt=""/>
+          <h2>Penguin</h2>
+        </div>
+      </article>
+      <a href="https://rocheingenieriaacustica.com">
+        <button id="button">Show All <i class="fa-solid fa-arrow-right"></i></button>
+      </a>
+    </section>
+    <section role="region" id="contact-section">
+      <article id="contact-article">
+        <h1 id="cont-title">Let's work together...</h1>
+        <p id="cont-subtitle">How do you take your coffee?</p>
+        <div class="social-icons">
+          <a target="_blank" id="profile-link" href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>Facebook
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>Twitter
+          </a>
+          <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>Instagram
+          </a>
+          <a href="https://www.linkedin.com/school/free-code-camp/">
+            <i class="fab fa-linkedin-in"></i>Linked In
+          </a>
+        </div>
+      </article>
+    </section>
+    <hr class="separator"></hr>
+    <footer id="footer">
+      <p class="small-subtitle">**This is just a starter portfolio.</p>
+      <p class="small-subtitle">© Created for <a href="https://www.freecodecamp.com/">freeCodeCamp 
+        <i class="fab fa-free-code-camp"></i>
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
